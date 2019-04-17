@@ -13,8 +13,8 @@ class Transfer
   end     #def 
   
   def execute_transaction
-    @sender.balance = balance - amount 
-    @receiver.balance = balance + amount 
+    @sender.balance = @balance - amount 
+    @receiver.balance = @balance + amount 
   end     #def 
   
    #let(:avi) { BankAccount.new("Avi") }
