@@ -8,7 +8,7 @@ class Transfer
     @amount = amount
   end     #def 
   
-  def valid 
+  def valid? 
     
   end     #def 
   
