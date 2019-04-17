@@ -12,4 +12,8 @@ class Transfer
     sender.valid? && receiver.valid?
   end     #def 
   
+  def execute_transaction
+    
+  end     #def 
+  
 end
