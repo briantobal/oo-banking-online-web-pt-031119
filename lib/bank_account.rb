@@ -8,4 +8,8 @@ class BankAccount
     @status = 'open'
   end     #def 
   
+  def deposit (amount)    
+    
+  end     #def 
+  
 end
