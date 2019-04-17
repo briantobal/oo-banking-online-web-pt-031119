@@ -13,7 +13,11 @@ class Transfer
   end     #def 
   
   def execute_transaction
-    
+    @sender.
   end     #def 
+  
+   let(:avi) { BankAccount.new("Avi") }
+    let(:amanda) { BankAccount.new("Amanda") }
+    let(:transfer) { Transfer.new(amanda, avi, 50) }
   
 end
